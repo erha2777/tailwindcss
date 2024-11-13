@@ -19,6 +19,14 @@ export default defineConfig({
         tailwindcss, 
         autoprefixer,
       ]
-    }
+    },
+    preprocessorOptions: {
+      scss: {
+        // 上面方法已弃用
+        // additionalData: '@import "@/styles/global.scss";'
+        additionalData: '@use "@/styles/global.scss" as *;',
+        api: "modern-compiler", // 修改api调用方式
+      },
+    },
   }
 })
