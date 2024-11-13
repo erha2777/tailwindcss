@@ -74,3 +74,31 @@ export default defineConfig({
 /* main.ts */
 import './tailwind.css'
 ```
+
+## 使用 Prettier 自动对类别进行排序
+```bash
+npm install -D prettier prettier-plugin-tailwindcss
+```
+```json
+// .prettierrc
+{
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindConfig": "./tailwind.config.js"
+}
+```
+自动格式化文件
+```bash
+npx prettier --write 文件名称
+```
+自动格式化目录下所有文件，不建议使用该方法
+```bash
+npx prettier --write .
+```
+或者使用编辑器里 `prettier` 插件进行格式化
+```html
+<!-- Before -->
+<button class="text-white px-4 sm:px-8 py-2 sm:py-3 bg-sky-700 hover:bg-sky-800">...</button>
+
+<!-- After -->
+<button class="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3">...</button>
+```
