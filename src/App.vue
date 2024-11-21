@@ -1,7 +1,9 @@
 <script setup lang="ts">
 
 import HeroSections from '@/components/HeroSections/index.vue';
-import FeatureSections1 from '@/components/FeatureSections/demo1/index.vue';
+import FeatureSections from '@/components/FeatureSections/index.vue';
+import CTASections from '@/components/CTASections/index.vue';
+import BentoGrids from '@/components/BentoGrids/index.vue';
 
 const options = { }
 
@@ -22,10 +24,24 @@ const options = { }
         </div>
         <div class="section">
             <div class="section-container">
-                <FeatureSections1></FeatureSections1>
+                <FeatureSections></FeatureSections>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section__container">
+                <CTASections></CTASections>
                 <div class="section__container-desc">
-                    <p class="section__container-desc-title">特色栏目</p>
-                    <p class="section__container-desc-text">使用这些 Tailwind CSS 功能部分示例来突出显示您的产品或服务的最重要功能。这些示例由 Tailwind CSS 团队设计和构建，包含各种不同的样式和布局。</p>
+                    <p class="section__container-desc-title">CTA 部分</p>
+                    <p class="section__container-desc-text">使用这些 Tailwind CSS CTA 部分示例来鼓励您的访问者采取行动并注册您的产品或服务。这些 CTA 示例由 Tailwind CSS 团队设计和构建，包含各种不同的样式和布局。</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section__container">
+                <BentoGrids></BentoGrids>
+                <div class="section__container-desc">
+                    <p class="section__container-desc-title">便当格</p>
+                    <p class="section__container-desc-text">使用这些 Tailwind CSS 便当网格示例来创建视觉上引人入胜的功能部分，以突出您的产品或服务的关键方面。这些卡片布局包括各种不同的网格图案，并包括浅色和深色示例。</p>
                 </div>
             </div>
         </div>
@@ -38,23 +54,10 @@ const options = { }
     height: 100vh;
 
     &__container {
+        position: relative;
         height: 100vh;
         &-desc {
-            width: fit-content;
-            margin: 0 auto;
-            padding: 20px 10px;
-            border-radius: 10px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            p {
-                text-align: center;
-            }
-            &-title {
-                font-size: 1.4em;
-                font-weight: 600;
-            }
-            &-text {
-                font-size: 1.2em;
-            }
+            
         }
     }
 }
