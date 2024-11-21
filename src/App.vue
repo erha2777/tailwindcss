@@ -56,6 +56,7 @@ const options = { }
     &__container {
         position: relative;
         height: 100vh;
+        overflow: hidden;
         &-desc {
             
         }
