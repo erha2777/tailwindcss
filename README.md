@@ -1,5 +1,7 @@
 # TailwindCSS在vite项目中使用
 tailwindcss通过 npm安装，并创建你的tailwind.config.js 文件。 Vite创建的项目默认集成了PostCSS，而TailwindCSS本身就是一个PostCSS插件，所以直接使用即可。
+
+
 ## 安装
 ```bash
 npm install -D tailwindcss postcss autoprefixer
@@ -108,3 +110,9 @@ npx prettier --write .
 ## tailwind-ui
 超过 500+ 专业设计、完全响应、专业制作的组件示例，您可以放入 Tailwind 项目中，并根据自己的喜好进行自定义。
 https://tailwindui.com/
+
+## 预览
+<img src="https://pic1.imgdb.cn/item/67bc42b0d0e0a243d403797f.png" />
+<img src="https://pic1.imgdb.cn/item/67bc42afd0e0a243d403797d.png" />
+<img src="https://pic1.imgdb.cn/item/67bc42b0d0e0a243d403797e.png" />
+<img src="https://pic1.imgdb.cn/item/67bc42b0d0e0a243d4037980.png" />
