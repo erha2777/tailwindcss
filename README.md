@@ -112,7 +112,7 @@ npx prettier --write .
 https://tailwindui.com/
 
 ## 预览
-<img src="https://pic1.imgdb.cn/item/67bc42b0d0e0a243d403797f.png" />
-<img src="https://pic1.imgdb.cn/item/67bc42afd0e0a243d403797d.png" />
-<img src="https://pic1.imgdb.cn/item/67bc42b0d0e0a243d403797e.png" />
-<img src="https://pic1.imgdb.cn/item/67bc42b0d0e0a243d4037980.png" />
+<img src="https://github.com/erha2777/public/blob/main/images/024f78f0f736afc3005f6534a319ebc4b745120b.png" />
+<img src="https://github.com/erha2777/public/blob/main/images/aa64034f78f0f736d7ad16501a55b319ebc4130b.png" />
+<img src="https://github.com/erha2777/public/blob/main/images/838ba61ea8d3fd1f723ae76b204e251f95ca5fab.png" />
+<img src="https://github.com/erha2777/public/blob/main/images/a71ea8d3fd1f4134a304402f351f95cad1c85eab.png" />
